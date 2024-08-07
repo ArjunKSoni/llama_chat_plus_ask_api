@@ -6,3 +6,4 @@ pydantic
 uvicorn
 streamlit
 requests
+langchain
