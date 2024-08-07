@@ -89,5 +89,3 @@ async def ask(input: Chat_input):
 
     return StreamingResponse(event_stream(), media_type="text/event-stream")
 
-while True:
-    uvicorn.run(app, host="127.0.0.1", port=4000)
