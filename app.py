@@ -28,7 +28,7 @@ app.add_middleware(
 
 
 llm = ChatGroq(
-    model="llama3-70b-8192",
+    model="llama-3.1-70b-versatile",
     temperature=0.5,
     max_tokens=None,
     timeout=None,
